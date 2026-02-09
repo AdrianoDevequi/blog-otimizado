@@ -54,6 +54,14 @@ export async function createPost(prevState: any, formData: FormData) {
     const title = formData.get("title") as string;
     const excerpt = formData.get("excerpt") as string;
     const content = formData.get("content") as string;
+    const imageUrl = formData.get("imageUrl") as string;
+    let slug = formData.get("slug") as string;
+
+    // Auto-generate slug if not provided
+    if (!slug && title) {
+        slug = title.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+    }
+
     // Category logic: Find or Create
     const categoryName = formData.get("category") as string;
     let categoryConnectId: number | undefined;
