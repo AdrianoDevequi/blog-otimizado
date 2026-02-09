@@ -1,0 +1,7 @@
+﻿Scraping: https://www.lojabomtrabalho.com.br/8822
+
+=== Product Data ===
+Title: Respirador Descart├ível 3M Concha 8822
+Price: R$ 14,36
+Image: https://www.lojabomtrabalho.com.br/media/tmp/webp/catalog/product/cache/1/image/600x/9df78eab33525d08d6e5fb8d27136e95/r/e/respirador-8822-3m-tipo-concha-pff2-com-valvula_jpg.webp
+Breadcrumbs: [ 'P├ígina Inicial', 'Respirador Descart├ível 3M Concha 8822' ]

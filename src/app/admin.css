@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+        @apply bg-neutral-950 text-neutral-200;
+    }
+}
+
+.admin-card {
+    @apply bg-neutral-900 border border-neutral-800 rounded-lg p-6;
+}
