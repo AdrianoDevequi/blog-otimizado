@@ -79,7 +79,7 @@ export default async function CategoryPage({ params, searchParams }: Props) {
 
     return (
         <div className="container py-16">
-            <header className="mb-12">
+            <header className="mb-16">
                 <h1 className="text-4xl font-bold mb-4">{category.name}</h1>
                 <p className="text-gray-600">
                     Mostrando {posts.length} de {totalPosts} artigos em <strong>{category.name}</strong>
@@ -89,7 +89,7 @@ export default async function CategoryPage({ params, searchParams }: Props) {
             {/* Products Section - Carousel */}
             {products.length > 0 && (
                 <section className="mb-16">
-                    <div className="flex justify-between items-end mb-6 pb-3 border-b border-gray-200">
+                    <div className="flex justify-between items-end mb-10 pb-3 border-b border-gray-200">
                         <h2 className="text-2xl font-bold font-heading">Produtos em Destaque</h2>
                         <a
                             href="https://www.lojabomtrabalho.com.br"

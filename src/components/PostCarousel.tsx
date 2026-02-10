@@ -25,7 +25,7 @@ export default function PostCarousel({ posts, title = "Conteúdos relacionados" 
 
     return (
         <div className="relative group/carousel w-full">
-            <div className="flex justify-between items-end mb-8">
+            <div className="flex justify-between items-end mb-12">
                 <div>
                     <span className="text-xs font-bold text-[var(--color-primary)] uppercase tracking-widest mb-2 block">Continue lendo</span>
                     <h2 className="text-3xl font-bold text-gray-900">{title}</h2>

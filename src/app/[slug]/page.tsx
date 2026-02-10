@@ -91,7 +91,7 @@ export default async function PostPage({ params }: Props) {
                     </Link>
                 </div>
 
-                <header className="post-header text-center mb-12">
+                <header className="post-header text-center mb-16">
                     <div className="flex justify-center items-center gap-2 text-[var(--color-primary)] uppercase tracking-wider text-xs font-bold mb-4">
                         <span>{post.category?.name || 'Geral'}</span>
                         <span>•</span>
@@ -120,7 +120,7 @@ export default async function PostPage({ params }: Props) {
             {/* Related Products Section */}
             {relatedProducts.length > 0 && (
                 <section className="mt-20 pt-12 border-t border-gray-200">
-                    <div className="flex justify-between items-end mb-8">
+                    <div className="flex justify-between items-end mb-12">
                         <div>
                             <span className="text-xs font-bold text-[var(--color-primary)] uppercase tracking-widest mb-2 block">Loja Bom Trabalho</span>
                             <h2 className="text-3xl font-bold text-gray-900">Produtos sugeridos para você</h2>

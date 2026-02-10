@@ -12,6 +12,14 @@ const nextConfig: NextConfig = {
     cpus: 1,
     workerThreads: false,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.lojabomtrabalho.com.br',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
